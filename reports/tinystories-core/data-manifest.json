@@ -1,0 +1,44 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "selection": "first complete documents of each official split",
+  "text_normalization": "strip document-edge whitespace, append EOS and newline",
+  "source": {
+    "train": {
+      "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStoriesV2-GPT4-train.txt",
+      "requested_documents": 20000,
+      "bytes": 16458542,
+      "sha256": "e0670a2b475f71b088bccf62892cb85024834eb1be5c1b8cc6a6ed07c41d037b"
+    },
+    "valid": {
+      "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStoriesV2-GPT4-valid.txt",
+      "requested_documents": 1000,
+      "bytes": 808431,
+      "sha256": "fc7a1dee5a828bde6ea2fce4d4eed0f7bddb9e18e0e714e94e0364ba97d91312"
+    }
+  },
+  "validation_exact_train_overlaps_removed": 0,
+  "bpe_training_documents": 2000,
+  "bpe_training_bytes": 1651850,
+  "bpe_seconds": 1.4854505829998743,
+  "vocab_size": 4096,
+  "dtype": "uint16",
+  "eos_token": "<|endoftext|>",
+  "eos_token_id": 0,
+  "tokenizer_sha256": {
+    "vocab.json": "3c71b7042353944f80487dab0ac3c801c2df73b4037fbab4353f3328ee4fb14b",
+    "merges.json": "3b9098d1adcd2473b84aa8c378d3c15c91929bf25b560c0ac9dff198dd857f33"
+  },
+  "train": {
+    "documents": 20000,
+    "tokens": 4124075,
+    "sha256": "e6e549ea4d72411cd911876e05a77e5b4e9166c4fe85fa31ec33ff29cb5832de",
+    "encoding_seconds": 7.9676277499993375
+  },
+  "valid": {
+    "documents": 1000,
+    "tokens": 202722,
+    "sha256": "a8f0075009ee1ac18821a199381b178bf63d090ba2644d34deea8483e143c0a9",
+    "encoding_seconds": 0.40282879200003663
+  }
+}

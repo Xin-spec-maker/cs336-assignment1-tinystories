@@ -1,0 +1,5 @@
+
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_tokenizer.py:416: rlimit support for non-linux systems is spotty.
+SKIPPED [1] tests/test_tokenizer.py:431: rlimit support for non-linux systems is spotty.
+======================== 100 passed, 2 skipped in 3.17s ========================

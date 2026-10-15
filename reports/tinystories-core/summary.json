@@ -1,0 +1,19 @@
+{
+  "event": "complete",
+  "step": 2000,
+  "elapsed_seconds": 190.23050345800038,
+  "parameters": 3344064,
+  "train": {
+    "loss": 2.574258878827095,
+    "perplexity": 13.121588866682526,
+    "evaluated_tokens": 32768
+  },
+  "valid": {
+    "loss": 2.633828998680479,
+    "perplexity": 13.926994381981975,
+    "evaluated_tokens": 202721
+  },
+  "tokens_seen": 4096000,
+  "checkpoint": "last.pt",
+  "data_manifest_sha256": "310845872f63198e336d024eba35a30dc6fe11643f1015e97a7f95b5ef482018"
+}

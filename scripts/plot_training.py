@@ -30,3 +30,5 @@ axes[0].legend(fontsize=8, frameon=False)
 fig.suptitle("TinyStories subset · 3.34M parameters · Apple M5 / MPS", fontsize=14, fontweight="bold")
 for extension in ("png", "svg"):
     fig.savefig(directory / f"loss-curve.{extension}", dpi=180)
+svg = directory / "loss-curve.svg"
+svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
