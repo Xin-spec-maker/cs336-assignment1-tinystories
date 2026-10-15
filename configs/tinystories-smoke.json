@@ -1,0 +1,19 @@
+{
+  "model": {
+    "vocab_size": 4096,
+    "context_length": 64,
+    "d_model": 64,
+    "num_layers": 2,
+    "num_heads": 4,
+    "d_ff": 192
+  },
+  "training": {
+    "steps": 12,
+    "batch_size": 2,
+    "warmup_steps": 2,
+    "eval_interval": 6,
+    "eval_tokens": 512,
+    "log_interval": 2,
+    "device": "mps"
+  }
+}
